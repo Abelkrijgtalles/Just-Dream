@@ -14,24 +14,17 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "nl.abelkrijgtalles.balls.fabric.Entrypoint"
+      "nl.abelkrijgtalles.justdream.fabric.Entrypoint"
     ],
     "client": [
-      "nl.abelkrijgtalles.balls.fabric.specialentrypoints.EntrypointClient"
+      "nl.abelkrijgtalles.justdream.fabric.specialentrypoints.EntrypointClient"
     ],
     "server": [
-      "nl.abelkrijgtalles.balls.fabric.specialentrypoints.EntrypointDedicatedServer"
+      "nl.abelkrijgtalles.justdream.fabric.specialentrypoints.EntrypointDedicatedServer"
     ]
   },
   "depends": {
     "fabric": ">=${fabricVersion}",
     "minecraft": "${minecraftVersion}"
-  },
-  "custom": {
-    "modmenu": {
-      "links": {
-        "modmenu.discord": "https://discord.gg/yX7u32cKuN"
-      }
-    }
   }
 }

@@ -1,7 +1,7 @@
 architectury {
     common("fabric", "forge", "neoforge")
 }
-loom { mixin { defaultRefmapName = "balls.refmap.json" } }
+loom { mixin { defaultRefmapName = "just_dream.refmap.json" } }
 
 dependencies {
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric}"

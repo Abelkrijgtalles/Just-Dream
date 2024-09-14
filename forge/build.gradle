@@ -2,7 +2,7 @@ plugins { id "com.github.johnrengelman.shadow" version "7.1.2" }
 architectury { forge() }
 
 loom {
-    mixin { defaultRefmapName = "balls.forge.refmap.json" }
+    mixin { defaultRefmapName = "just_dream.forge.refmap.json" }
 }
 
 configurations {

@@ -11,7 +11,7 @@ authors = "${author}"
 description = '''${description}'''
 displayURL = "${websiteUrl}"
 updateJSONURL = "${forgeUpdateUrl}"
-itemIcon = "minecraft:oak_sapling"
+itemIcon = "minecraft:bed"
 
 [[dependencies.${id}]]
 modId = "forge"

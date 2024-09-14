@@ -5,7 +5,7 @@ cd /d "%~dp0"
 
 set "versions="
 
-echo De volgende versies worden verwerkt:
+echo Building the following versions:
 
 for %%f in (props\*.properties) do (
     set "filename=%%~nf"
@@ -14,7 +14,7 @@ for %%f in (props\*.properties) do (
 )
 
 echo.
-echo Beginnen met builden...
+echo Beginning to build...
 
 for %%v in (%versions%) do (
     call gradlew -q -Pminecraft=%%v build
