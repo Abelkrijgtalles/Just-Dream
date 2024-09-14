@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "${description}",
+  "authors": ["${author}"],
+  "contact": {
+    "homepage": "${websiteUrl}",
+    "issues": "${issueTrackerUrl}"
+  },
+  "license": "${license}",
+  "icon": "assets/balls/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "nl.abelkrijgtalles.balls.fabric.Entrypoint"
+    ],
+    "client": [
+      "nl.abelkrijgtalles.balls.fabric.specialentrypoints.EntrypointClient"
+    ],
+    "server": [
+      "nl.abelkrijgtalles.balls.fabric.specialentrypoints.EntrypointDedicatedServer"
+    ]
+  },
+  "depends": {
+    "fabric": ">=${fabricVersion}",
+    "minecraft": "${minecraftVersion}"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/yX7u32cKuN"
+      }
+    }
+  }
+}
